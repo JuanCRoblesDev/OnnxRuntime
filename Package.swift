@@ -18,13 +18,15 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
+//        .binaryTarget(
+//            name: "OnnxRuntime",
+//            path: "xcframework/OnnxRuntime.xcframework"
+//        ),
         .binaryTarget(
             name: "OnnxRuntime",
-            path: "xcframework/OnnxRuntime.xcframework"
+            url: "https://github.com/JuanCRoblesDev/OnnxRuntime/releases/download/1.0.0/OnnxRuntime.xcframework.zip",
+            checksum: "1bdcf8c317b5a144723f2ab8e77e3e0992b1f4c9a814ada7a103904894fbbb7a"
         ),
-//        .testTarget(
-//            name: "OnnxRuntimeC++Tests",
-//            dependencies: ["OnnxRuntimeC++"]),
     ],
     swiftLanguageVersions: [.v5],
     cxxLanguageStandard: .cxx17
