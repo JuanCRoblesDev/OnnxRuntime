@@ -24,7 +24,7 @@ let package = Package(
 //        ),
         .binaryTarget(
             name: "OnnxRuntime",
-            url: "https://github.com/JuanCRoblesDev/OnnxRuntime/releases/download/1.0.0/OnnxRuntime.xcframework.zip",
+            url: "https://github.com/JuanCRoblesDev/OnnxRuntime/releases/download/v1.0.0/OnnxRuntime.xcframework.zip",
             checksum: "1bdcf8c317b5a144723f2ab8e77e3e0992b1f4c9a814ada7a103904894fbbb7a"
         ),
     ],
