@@ -3,9 +3,10 @@ BASE_DIR=`pwd`
 
 DEST_DIR=$BASE_DIR/xcframework
 LIBRARY_NAME=OnnxRuntime
-LIBRARY_VERSION=1.19.2
+LIBRARY_VERSION=1.20.0
 
-SOURCE_SDK_DIR="./lib/onnxruntime-osx-universal2-1.19.2"
+#SOURCE_SDK_DIR="./lib/onnxruntime-osx-universal2-1.19.2"
+SOURCE_SDK_DIR="./lib/onnxruntime-osx-arm64-1.20.0"
 LIB_DIR=lib
 LIB_FILE=libonnxruntime
 HEADERS_DIR=$SOURCE_SDK_DIR/include
